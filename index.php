@@ -89,7 +89,7 @@
 				<td>$db_address</td>
 				<td>$db_email</td>
 				<td><a href='edit.php?id=$user_id'>Update</a></td>
-				<td><a href=''>Delete</a></td>
+				<td><a href='confirm_delete.php?id=$user_id'>Delete</a></td>
 			</tr>";
 
 	}
