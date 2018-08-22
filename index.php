@@ -73,9 +73,12 @@
 			<td>Name</td>
 			<td>Address</td>
 			<td>Email</td>
+			<td colspan='2'><center>Options</center></td>
 		</tr>";
 
 	while($row = mysqli_fetch_assoc($view_query)){
+
+		$user_id = $row["id"];
 
 		$db_name = $row["name"];
 		$db_address = $row["address"];
@@ -85,6 +88,8 @@
 				<td>$db_name</td>
 				<td>$db_address</td>
 				<td>$db_email</td>
+				<td><a href='edit.php?id=$user_id'>Update</a></td>
+				<td><a href=''>Delete</a></td>
 			</tr>";
 
 	}
