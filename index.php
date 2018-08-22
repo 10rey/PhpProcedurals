@@ -54,6 +54,8 @@
 <hr>
 
 <?php 
+
+	include("connection.php");
 	
 	if($name && $address && $email){
 
