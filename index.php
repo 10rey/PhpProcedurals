@@ -59,9 +59,7 @@
 	
 	if($name && $address && $email){
 
-		echo $name . "<br>";
-		echo $address . "<br>";
-		echo $email . "<br>";
+		$query = mysqlI_query( $connections, "INSERT INTO mytbl(name, address, email) VALUES('$name','$address','$email')" );
 
 	}
 
