@@ -36,6 +36,13 @@
 
 </style>
 
+<br>
+
+<?php include('nav.php'); ?>
+
+<br>
+<br>
+
 <form method="POST" action="<?php htmlspecialchars("PHP_SELF") ?>">
 	
 	<input type="text" name="name" value="<?php echo $name; ?>"> <br>
