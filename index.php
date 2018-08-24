@@ -56,6 +56,8 @@
 				echo "<script language='javascript'>alert('New record has been added!')</script>";
 				echo "<script>windows.location.href='index.php';</script>";
 
+				$name = $address = $email = $password = $cpassword = "";
+				
 			}
 
 		}
